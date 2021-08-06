@@ -1,0 +1,24 @@
+{
+  "name": "vue-koa-ApiServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0"
+  }
+}
